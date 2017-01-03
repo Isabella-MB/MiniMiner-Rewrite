@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		50DAE8101E1BF4A800DD1B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE80F1E1BF4A800DD1B7C /* AppDelegate.swift */; };
-		50DAE8121E1BF4A800DD1B7C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50DAE8111E1BF4A800DD1B7C /* GameScene.sks */; };
-		50DAE8141E1BF4A800DD1B7C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50DAE8131E1BF4A800DD1B7C /* Actions.sks */; };
 		50DAE8161E1BF4A800DD1B7C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8151E1BF4A800DD1B7C /* GameScene.swift */; };
 		50DAE8181E1BF4A800DD1B7C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8171E1BF4A800DD1B7C /* GameViewController.swift */; };
 		50DAE81B1E1BF4A800DD1B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DAE8191E1BF4A800DD1B7C /* Main.storyboard */; };
@@ -39,8 +37,6 @@
 /* Begin PBXFileReference section */
 		50DAE80C1E1BF4A800DD1B7C /* MiniMiner Rewrite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniMiner Rewrite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DAE80F1E1BF4A800DD1B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50DAE8111E1BF4A800DD1B7C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		50DAE8131E1BF4A800DD1B7C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		50DAE8151E1BF4A800DD1B7C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		50DAE8171E1BF4A800DD1B7C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		50DAE81A1E1BF4A800DD1B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,10 +99,8 @@
 		50DAE80E1E1BF4A800DD1B7C /* MiniMiner Rewrite */ = {
 			isa = PBXGroup;
 			children = (
+				50DAE8431E1BF70700DD1B7C /* Scenes */,
 				50DAE80F1E1BF4A800DD1B7C /* AppDelegate.swift */,
-				50DAE8111E1BF4A800DD1B7C /* GameScene.sks */,
-				50DAE8131E1BF4A800DD1B7C /* Actions.sks */,
-				50DAE8151E1BF4A800DD1B7C /* GameScene.swift */,
 				50DAE8171E1BF4A800DD1B7C /* GameViewController.swift */,
 				50DAE8191E1BF4A800DD1B7C /* Main.storyboard */,
 				50DAE81C1E1BF4A800DD1B7C /* Assets.xcassets */,
@@ -132,6 +126,14 @@
 				50DAE8371E1BF4A800DD1B7C /* Info.plist */,
 			);
 			path = "MiniMiner RewriteUITests";
+			sourceTree = "<group>";
+		};
+		50DAE8431E1BF70700DD1B7C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				50DAE8151E1BF4A800DD1B7C /* GameScene.swift */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,10 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50DAE81B1E1BF4A800DD1B7C /* Main.storyboard in Resources */,
-				50DAE8121E1BF4A800DD1B7C /* GameScene.sks in Resources */,
 				50DAE81D1E1BF4A800DD1B7C /* Assets.xcassets in Resources */,
 				50DAE8201E1BF4A800DD1B7C /* LaunchScreen.storyboard in Resources */,
-				50DAE8141E1BF4A800DD1B7C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
