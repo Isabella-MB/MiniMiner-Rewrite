@@ -12,13 +12,17 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    var currentScene : SKScene!
+    var previousScene : SKScene!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
-            let scene = GameScene()
+            currentScene = TitleScene(self)
+            previousScene = currentScene
             
-            view.presentScene(scene)
+            view.presentScene(currentScene)
             
             view.ignoresSiblingOrder = true
             
@@ -27,8 +31,27 @@ class GameViewController: UIViewController {
         }
     }
 
+    func ChangeScene(_ newScene : SKScene, transition: SKTransition)
+    {
+        previousScene = currentScene
+        currentScene = newScene
+        if let view = self.view as! SKView? {
+            view.presentScene(currentScene, transition: transition)
+        }
+    }
+    
+    func ToPreviousScene(transition: SKTransition)
+    {
+        let temp = currentScene
+        currentScene = previousScene
+        if let view = self.view as! SKView? {
+            view.presentScene(currentScene, transition: transition)
+        }
+        previousScene = temp
+    }
+    
     override var shouldAutorotate: Bool {
-        return false
+        return true
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {

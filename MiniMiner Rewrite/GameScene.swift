@@ -10,18 +10,27 @@ import Foundation
 import SpriteKit
 
 class GameScene : SKScene{
-    let mainLayer: SKNode
+    
+    let game: GameViewController
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder) is not used in this app")
     }
     
-    override init() {
-        mainLayer = SKNode()
+    init(_ game: GameViewController) {
+        
+        self.game = game
         
         super.init(size: CGSize(width: 1280, height: 720))
         
         scaleMode = .fill
-        addChild(mainLayer)
+    }
+    
+    var centerScreen: CGPoint {
+        get {
+            let centerX = (size.width / 2)
+            let centerY = (size.height / 2)
+            return CGPoint(x: centerX, y: centerY)
+        }
     }
 }
