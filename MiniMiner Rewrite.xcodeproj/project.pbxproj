@@ -24,6 +24,7 @@
 		50DAE8551E1C06DD00DD1B7C /* Rock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8541E1C06DD00DD1B7C /* Rock.swift */; };
 		50DAE8571E1C0A1B00DD1B7C /* Mineable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8561E1C0A1B00DD1B7C /* Mineable.swift */; };
 		50DAE8591E1C2AB100DD1B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DAE8581E1C2AB100DD1B7C /* Assets.xcassets */; };
+		DFBE91551E1E7DF700513521 /* Mineables.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DFBE91541E1E7DF700513521 /* Mineables.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		50DAE8541E1C06DD00DD1B7C /* Rock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rock.swift; sourceTree = "<group>"; };
 		50DAE8561E1C0A1B00DD1B7C /* Mineable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mineable.swift; sourceTree = "<group>"; };
 		50DAE8581E1C2AB100DD1B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBE91541E1E7DF700513521 /* Mineables.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Mineables.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		50DAE80E1E1BF4A800DD1B7C /* MiniMiner Rewrite */ = {
 			isa = PBXGroup;
 			children = (
+				DFBE91541E1E7DF700513521 /* Mineables.atlas */,
 				503574C51E1D676000310717 /* Rock.atlas */,
 				50DAE8581E1C2AB100DD1B7C /* Assets.xcassets */,
 				50DAE8441E1BF8BA00DD1B7C /* Helper Objects */,
@@ -239,7 +242,6 @@
 				TargetAttributes = {
 					50DAE80B1E1BF4A700DD1B7C = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 4NR4784MG2;
 						ProvisioningStyle = Automatic;
 					};
 					50DAE8251E1BF4A800DD1B7C = {
@@ -284,6 +286,7 @@
 				503574C61E1D676000310717 /* Rock.atlas in Resources */,
 				50DAE81B1E1BF4A800DD1B7C /* Main.storyboard in Resources */,
 				50DAE8591E1C2AB100DD1B7C /* Assets.xcassets in Resources */,
+				DFBE91551E1E7DF700513521 /* Mineables.atlas in Resources */,
 				50DAE8201E1BF4A800DD1B7C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,7 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4NR4784MG2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MiniMiner Rewrite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelaborate.MiniMiner-Rewrite";
@@ -484,7 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4NR4784MG2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MiniMiner Rewrite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelaborate.MiniMiner-Rewrite";
