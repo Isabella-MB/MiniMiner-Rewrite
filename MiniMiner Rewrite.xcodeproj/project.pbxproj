@@ -9,22 +9,6 @@
 /* Begin PBXBuildFile section */
 		50DAE82B1E1BF4A800DD1B7C /* MiniMiner_RewriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE82A1E1BF4A800DD1B7C /* MiniMiner_RewriteTests.swift */; };
 		50DAE8361E1BF4A800DD1B7C /* MiniMiner_RewriteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8351E1BF4A800DD1B7C /* MiniMiner_RewriteUITests.swift */; };
-		50FC18831E2661450033E3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FC18731E2661450033E3B1 /* Assets.xcassets */; };
-		50FC18841E2661450033E3B1 /* Gemstones.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 50FC18741E2661450033E3B1 /* Gemstones.atlas */; };
-		50FC18851E2661450033E3B1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50FC18751E2661450033E3B1 /* Info.plist */; };
-		50FC18861E2661450033E3B1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC18761E2661450033E3B1 /* Item.swift */; };
-		50FC18871E2661450033E3B1 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC18771E2661450033E3B1 /* LoadingOverlay.swift */; };
-		50FC18881E2661450033E3B1 /* Mineable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC18781E2661450033E3B1 /* Mineable.swift */; };
-		50FC18891E2661450033E3B1 /* MineableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC18791E2661450033E3B1 /* MineableType.swift */; };
-		50FC188A1E2661450033E3B1 /* Rock.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 50FC187A1E2661450033E3B1 /* Rock.atlas */; };
-		50FC188B1E2661450033E3B1 /* Rock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC187B1E2661450033E3B1 /* Rock.swift */; };
-		50FC188C1E2661450033E3B1 /* ScrollMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC187C1E2661450033E3B1 /* ScrollMenu.swift */; };
-		50FC188D1E2661450033E3B1 /* StockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC187D1E2661450033E3B1 /* StockManager.swift */; };
-		50FC188E1E2661450033E3B1 /* Stocks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50FC187E1E2661450033E3B1 /* Stocks.txt */; };
-		50FC188F1E2661450033E3B1 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC187F1E2661450033E3B1 /* TitleScene.swift */; };
-		50FC18901E2661450033E3B1 /* Tools.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 50FC18801E2661450033E3B1 /* Tools.atlas */; };
-		50FC18911E2661450033E3B1 /* UndergroundScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC18811E2661450033E3B1 /* UndergroundScene.swift */; };
-		50FC18921E2661450033E3B1 /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC18821E2661450033E3B1 /* Wall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,22 +36,6 @@
 		50DAE8311E1BF4A800DD1B7C /* MiniMiner RewriteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiniMiner RewriteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DAE8351E1BF4A800DD1B7C /* MiniMiner_RewriteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMiner_RewriteUITests.swift; sourceTree = "<group>"; };
 		50DAE8371E1BF4A800DD1B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50FC18731E2661450033E3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50FC18741E2661450033E3B1 /* Gemstones.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Gemstones.atlas; sourceTree = "<group>"; };
-		50FC18751E2661450033E3B1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50FC18761E2661450033E3B1 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		50FC18771E2661450033E3B1 /* LoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
-		50FC18781E2661450033E3B1 /* Mineable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mineable.swift; sourceTree = "<group>"; };
-		50FC18791E2661450033E3B1 /* MineableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineableType.swift; sourceTree = "<group>"; };
-		50FC187A1E2661450033E3B1 /* Rock.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Rock.atlas; sourceTree = "<group>"; };
-		50FC187B1E2661450033E3B1 /* Rock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rock.swift; sourceTree = "<group>"; };
-		50FC187C1E2661450033E3B1 /* ScrollMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollMenu.swift; sourceTree = "<group>"; };
-		50FC187D1E2661450033E3B1 /* StockManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockManager.swift; sourceTree = "<group>"; };
-		50FC187E1E2661450033E3B1 /* Stocks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stocks.txt; sourceTree = "<group>"; };
-		50FC187F1E2661450033E3B1 /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
-		50FC18801E2661450033E3B1 /* Tools.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Tools.atlas; sourceTree = "<group>"; };
-		50FC18811E2661450033E3B1 /* UndergroundScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndergroundScene.swift; sourceTree = "<group>"; };
-		50FC18821E2661450033E3B1 /* Wall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +66,6 @@
 		50DAE8031E1BF4A700DD1B7C = {
 			isa = PBXGroup;
 			children = (
-				50FC18721E2661450033E3B1 /* MiniMiner Rewrite */,
 				50DAE8291E1BF4A800DD1B7C /* MiniMiner RewriteTests */,
 				50DAE8341E1BF4A800DD1B7C /* MiniMiner RewriteUITests */,
 				50DAE80D1E1BF4A800DD1B7C /* Products */,
@@ -131,29 +98,6 @@
 				50DAE8371E1BF4A800DD1B7C /* Info.plist */,
 			);
 			path = "MiniMiner RewriteUITests";
-			sourceTree = "<group>";
-		};
-		50FC18721E2661450033E3B1 /* MiniMiner Rewrite */ = {
-			isa = PBXGroup;
-			children = (
-				50FC18731E2661450033E3B1 /* Assets.xcassets */,
-				50FC18741E2661450033E3B1 /* Gemstones.atlas */,
-				50FC18751E2661450033E3B1 /* Info.plist */,
-				50FC18761E2661450033E3B1 /* Item.swift */,
-				50FC18771E2661450033E3B1 /* LoadingOverlay.swift */,
-				50FC18781E2661450033E3B1 /* Mineable.swift */,
-				50FC18791E2661450033E3B1 /* MineableType.swift */,
-				50FC187A1E2661450033E3B1 /* Rock.atlas */,
-				50FC187B1E2661450033E3B1 /* Rock.swift */,
-				50FC187C1E2661450033E3B1 /* ScrollMenu.swift */,
-				50FC187D1E2661450033E3B1 /* StockManager.swift */,
-				50FC187E1E2661450033E3B1 /* Stocks.txt */,
-				50FC187F1E2661450033E3B1 /* TitleScene.swift */,
-				50FC18801E2661450033E3B1 /* Tools.atlas */,
-				50FC18811E2661450033E3B1 /* UndergroundScene.swift */,
-				50FC18821E2661450033E3B1 /* Wall.swift */,
-			);
-			path = "MiniMiner Rewrite";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,12 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FC188A1E2661450033E3B1 /* Rock.atlas in Resources */,
-				50FC18831E2661450033E3B1 /* Assets.xcassets in Resources */,
-				50FC188E1E2661450033E3B1 /* Stocks.txt in Resources */,
-				50FC18901E2661450033E3B1 /* Tools.atlas in Resources */,
-				50FC18841E2661450033E3B1 /* Gemstones.atlas in Resources */,
-				50FC18851E2661450033E3B1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,16 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FC188B1E2661450033E3B1 /* Rock.swift in Sources */,
-				50FC18891E2661450033E3B1 /* MineableType.swift in Sources */,
-				50FC18911E2661450033E3B1 /* UndergroundScene.swift in Sources */,
-				50FC18881E2661450033E3B1 /* Mineable.swift in Sources */,
-				50FC188F1E2661450033E3B1 /* TitleScene.swift in Sources */,
-				50FC18861E2661450033E3B1 /* Item.swift in Sources */,
-				50FC18871E2661450033E3B1 /* LoadingOverlay.swift in Sources */,
-				50FC18921E2661450033E3B1 /* Wall.swift in Sources */,
-				50FC188C1E2661450033E3B1 /* ScrollMenu.swift in Sources */,
-				50FC188D1E2661450033E3B1 /* StockManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +390,6 @@
 		50DAE83E1E1BF4A800DD1B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteTests/Info.plist";
@@ -477,7 +404,6 @@
 		50DAE83F1E1BF4A800DD1B7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteTests/Info.plist";
@@ -492,7 +418,6 @@
 		50DAE8411E1BF4A800DD1B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -506,7 +431,6 @@
 		50DAE8421E1BF4A800DD1B7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
