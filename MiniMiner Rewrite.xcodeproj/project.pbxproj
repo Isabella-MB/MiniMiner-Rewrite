@@ -7,24 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		503574C61E1D676000310717 /* Rock.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 503574C51E1D676000310717 /* Rock.atlas */; };
-		50DAE8101E1BF4A800DD1B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE80F1E1BF4A800DD1B7C /* AppDelegate.swift */; };
-		50DAE8161E1BF4A800DD1B7C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8151E1BF4A800DD1B7C /* GameScene.swift */; };
-		50DAE8181E1BF4A800DD1B7C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8171E1BF4A800DD1B7C /* GameViewController.swift */; };
-		50DAE81B1E1BF4A800DD1B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DAE8191E1BF4A800DD1B7C /* Main.storyboard */; };
-		50DAE8201E1BF4A800DD1B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DAE81E1E1BF4A800DD1B7C /* LaunchScreen.storyboard */; };
 		50DAE82B1E1BF4A800DD1B7C /* MiniMiner_RewriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE82A1E1BF4A800DD1B7C /* MiniMiner_RewriteTests.swift */; };
 		50DAE8361E1BF4A800DD1B7C /* MiniMiner_RewriteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8351E1BF4A800DD1B7C /* MiniMiner_RewriteUITests.swift */; };
-		50DAE8461E1BF8CF00DD1B7C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8451E1BF8CF00DD1B7C /* Button.swift */; };
-		50DAE8491E1BF9F000DD1B7C /* ScrollMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8481E1BF9F000DD1B7C /* ScrollMenu.swift */; };
-		50DAE84B1E1BFB8100DD1B7C /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE84A1E1BFB8100DD1B7C /* TitleScene.swift */; };
-		50DAE84F1E1C020900DD1B7C /* UndergroundScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE84E1E1C020900DD1B7C /* UndergroundScene.swift */; };
-		50DAE8511E1C065300DD1B7C /* MiningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8501E1C065300DD1B7C /* MiningScene.swift */; };
-		50DAE8531E1C067200DD1B7C /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8521E1C067200DD1B7C /* Wall.swift */; };
-		50DAE8551E1C06DD00DD1B7C /* Rock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8541E1C06DD00DD1B7C /* Rock.swift */; };
-		50DAE8571E1C0A1B00DD1B7C /* Mineable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAE8561E1C0A1B00DD1B7C /* Mineable.swift */; };
-		50DAE8591E1C2AB100DD1B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DAE8581E1C2AB100DD1B7C /* Assets.xcassets */; };
-		DFBE91551E1E7DF700513521 /* Mineables.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DFBE91541E1E7DF700513521 /* Mineables.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,30 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		503574C51E1D676000310717 /* Rock.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Rock.atlas; sourceTree = "<group>"; };
 		50DAE80C1E1BF4A800DD1B7C /* MiniMiner Rewrite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniMiner Rewrite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50DAE80F1E1BF4A800DD1B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50DAE8151E1BF4A800DD1B7C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		50DAE8171E1BF4A800DD1B7C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		50DAE81A1E1BF4A800DD1B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50DAE81F1E1BF4A800DD1B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		50DAE8211E1BF4A800DD1B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50DAE8261E1BF4A800DD1B7C /* MiniMiner RewriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiniMiner RewriteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DAE82A1E1BF4A800DD1B7C /* MiniMiner_RewriteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMiner_RewriteTests.swift; sourceTree = "<group>"; };
 		50DAE82C1E1BF4A800DD1B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50DAE8311E1BF4A800DD1B7C /* MiniMiner RewriteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiniMiner RewriteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DAE8351E1BF4A800DD1B7C /* MiniMiner_RewriteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMiner_RewriteUITests.swift; sourceTree = "<group>"; };
 		50DAE8371E1BF4A800DD1B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50DAE8451E1BF8CF00DD1B7C /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		50DAE8481E1BF9F000DD1B7C /* ScrollMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollMenu.swift; sourceTree = "<group>"; };
-		50DAE84A1E1BFB8100DD1B7C /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
-		50DAE84E1E1C020900DD1B7C /* UndergroundScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndergroundScene.swift; sourceTree = "<group>"; };
-		50DAE8501E1C065300DD1B7C /* MiningScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiningScene.swift; sourceTree = "<group>"; };
-		50DAE8521E1C067200DD1B7C /* Wall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
-		50DAE8541E1C06DD00DD1B7C /* Rock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rock.swift; sourceTree = "<group>"; };
-		50DAE8561E1C0A1B00DD1B7C /* Mineable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mineable.swift; sourceTree = "<group>"; };
-		50DAE8581E1C2AB100DD1B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFBE91541E1E7DF700513521 /* Mineables.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Mineables.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +66,6 @@
 		50DAE8031E1BF4A700DD1B7C = {
 			isa = PBXGroup;
 			children = (
-				50DAE80E1E1BF4A800DD1B7C /* MiniMiner Rewrite */,
 				50DAE8291E1BF4A800DD1B7C /* MiniMiner RewriteTests */,
 				50DAE8341E1BF4A800DD1B7C /* MiniMiner RewriteUITests */,
 				50DAE80D1E1BF4A800DD1B7C /* Products */,
@@ -114,23 +80,6 @@
 				50DAE8311E1BF4A800DD1B7C /* MiniMiner RewriteUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		50DAE80E1E1BF4A800DD1B7C /* MiniMiner Rewrite */ = {
-			isa = PBXGroup;
-			children = (
-				DFBE91541E1E7DF700513521 /* Mineables.atlas */,
-				503574C51E1D676000310717 /* Rock.atlas */,
-				50DAE8581E1C2AB100DD1B7C /* Assets.xcassets */,
-				50DAE8441E1BF8BA00DD1B7C /* Helper Objects */,
-				50DAE8431E1BF70700DD1B7C /* Scenes */,
-				50DAE80F1E1BF4A800DD1B7C /* AppDelegate.swift */,
-				50DAE8171E1BF4A800DD1B7C /* GameViewController.swift */,
-				50DAE8191E1BF4A800DD1B7C /* Main.storyboard */,
-				50DAE81E1E1BF4A800DD1B7C /* LaunchScreen.storyboard */,
-				50DAE8211E1BF4A800DD1B7C /* Info.plist */,
-			);
-			path = "MiniMiner Rewrite";
 			sourceTree = "<group>";
 		};
 		50DAE8291E1BF4A800DD1B7C /* MiniMiner RewriteTests */ = {
@@ -149,29 +98,6 @@
 				50DAE8371E1BF4A800DD1B7C /* Info.plist */,
 			);
 			path = "MiniMiner RewriteUITests";
-			sourceTree = "<group>";
-		};
-		50DAE8431E1BF70700DD1B7C /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				50DAE8151E1BF4A800DD1B7C /* GameScene.swift */,
-				50DAE84A1E1BFB8100DD1B7C /* TitleScene.swift */,
-				50DAE84E1E1C020900DD1B7C /* UndergroundScene.swift */,
-				50DAE8501E1C065300DD1B7C /* MiningScene.swift */,
-				50DAE8521E1C067200DD1B7C /* Wall.swift */,
-				50DAE8541E1C06DD00DD1B7C /* Rock.swift */,
-				50DAE8561E1C0A1B00DD1B7C /* Mineable.swift */,
-			);
-			name = Scenes;
-			sourceTree = "<group>";
-		};
-		50DAE8441E1BF8BA00DD1B7C /* Helper Objects */ = {
-			isa = PBXGroup;
-			children = (
-				50DAE8451E1BF8CF00DD1B7C /* Button.swift */,
-				50DAE8481E1BF9F000DD1B7C /* ScrollMenu.swift */,
-			);
-			name = "Helper Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,11 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				503574C61E1D676000310717 /* Rock.atlas in Resources */,
-				50DAE81B1E1BF4A800DD1B7C /* Main.storyboard in Resources */,
-				50DAE8591E1C2AB100DD1B7C /* Assets.xcassets in Resources */,
-				DFBE91551E1E7DF700513521 /* Mineables.atlas in Resources */,
-				50DAE8201E1BF4A800DD1B7C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,17 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DAE8551E1C06DD00DD1B7C /* Rock.swift in Sources */,
-				50DAE8161E1BF4A800DD1B7C /* GameScene.swift in Sources */,
-				50DAE8531E1C067200DD1B7C /* Wall.swift in Sources */,
-				50DAE8491E1BF9F000DD1B7C /* ScrollMenu.swift in Sources */,
-				50DAE8181E1BF4A800DD1B7C /* GameViewController.swift in Sources */,
-				50DAE8101E1BF4A800DD1B7C /* AppDelegate.swift in Sources */,
-				50DAE8511E1C065300DD1B7C /* MiningScene.swift in Sources */,
-				50DAE8461E1BF8CF00DD1B7C /* Button.swift in Sources */,
-				50DAE84B1E1BFB8100DD1B7C /* TitleScene.swift in Sources */,
-				50DAE84F1E1C020900DD1B7C /* UndergroundScene.swift in Sources */,
-				50DAE8571E1C0A1B00DD1B7C /* Mineable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,25 +266,6 @@
 			targetProxy = 50DAE8321E1BF4A800DD1B7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		50DAE8191E1BF4A800DD1B7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50DAE81A1E1BF4A800DD1B7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50DAE81E1E1BF4A800DD1B7C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50DAE81F1E1BF4A800DD1B7C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		50DAE8381E1BF4A800DD1B7C /* Debug */ = {
@@ -499,7 +390,6 @@
 		50DAE83E1E1BF4A800DD1B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteTests/Info.plist";
@@ -514,7 +404,6 @@
 		50DAE83F1E1BF4A800DD1B7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteTests/Info.plist";
@@ -529,7 +418,6 @@
 		50DAE8411E1BF4A800DD1B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -543,7 +431,6 @@
 		50DAE8421E1BF4A800DD1B7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4NR4784MG2;
 				INFOPLIST_FILE = "MiniMiner RewriteUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
